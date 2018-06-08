@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Mon Mémento</title>
+  </head>
+  <body>
+    <div id="fond">
+    <div id="pb">
+    <a href="#HTMLA" style="font-size:30px">HTML</a>
+    </div>
+    <div id="pb">
+    <a href="#CSSA" style="font-size:30px">CSS</a>
+    </div>
+    <div id="pb2">
+      <a href="inscription.html" style="font-size:30px">inscription</a>
+    </div>
+    </div>
+    <br/>
+    <h1>Memento</h1>
+     <h2>Exercice ligne de commande </h2>
+    <h3>Part.1 les bases </h3>
+     <div id="fondt"><table>
+       <thead>
+         <tr>
+           <th>Commande</th>
+           <th>Utilisation</th>
+           <th>Exemple</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr>
+           <td>man ls</td>
+           <td>Ouvre le manuelle ls</td>
+         </tr>
+         <tr>
+           <td>ls</td>
+           <td>Affiche le contenu du dossier courant</td>
+           <td>ls Documents<br/>Nous affiche le contenu de Documents</td>
+         </tr>
+         <tr>
+           <td>ls -a</td>
+           <td>Affiche le contenu du dossier courant<br/>et les fichiers cachés</td>
+           <td></td>
+         </tr>
+         <tr>
+           <td>ls -l</td>
+           <td>Affiche le contenu du dossier courant<br/>en version longue</td>
+           <td></td>
+         </tr>
+         <tr>
+           <td>ls -al</td>
+           <td>Affiche le contenu du dossier courant <br/>et les fichier caché en version longue</td>
+           <td></td>
+         </tr>
+         <tr>
+           <td>pwd</td>
+           <td>Affiche le chemin du dossier courant</td>
+           <td></td>
+         </tr>
+         <tr>
+           <td>cd</td>
+           <td>Pour se déplacer dans les dossiers</td>
+           <td>cd Documents<br/>nous déplace dans documents</td>
+         </tr>
+       </tbody>
+     </table></div>
+    <h3> Part.2 les paquets </h3>
+    <div id="fondt"><table>
+      <thead>
+       <tr>
+        <th>Commande</th>
+        <th>Utilisation</th>
+        <th>Exemple</th>
+       </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>sudo</td>
+          <td>Pour se mettre en super utilisateur</td>
+          <td>sudo apt update</td>
+        </tr>
+        <tr>
+          <td>apt update</td>
+          <td>Permet de mettre à jour la listes des paquets</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>apt upgrade</td>
+          <td>permet de mettre à jour les paquets</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>sudo apt search</td>
+          <td>Pour rechercher tous les paquets contenant un certain mot</td>
+          <td>apt search XML</td>
+        </tr>
+        <tr>
+          <td>apt install</td>
+          <td>Permet d'installer un paquet</td>
+          <td>apt install git</td>
+        </tr>
+        <tr>
+          <td>dpkg -i</td>
+          <td>Pour installer un .deb</td>
+          <td>dpkg -i discord-0.0.5.deb</td>
+        </tr>
+        <tr>
+          <td>apt -f install</td>
+          <td>Permet d'installer les dépendances</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table></div>
+    <h3>Part.3 Gestion de documents</h3>
+    <div id="fondt"><table>
+      <thead>
+        <tr>
+          <th>Commande</th>
+          <th>Utilisation</th>
+          <th>Exemple</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>mkdir</td>
+          <td>Permet de créer un dossier</td>
+          <td>mkdir website</td>
+        </tr>
+        <tr>
+          <td>mkdir -p</td>
+          <td>Permet de créer un dossier et un sous dossier<br/>ou de créer plusieurs dossier en une commande</td>
+          <td>mkdir -p website/CSS <br/>mkdir -p dossier1,dossier2,dossier3</td>
+        </tr>
+        <tr>
+          <td>touch</td>
+          <td>Pour créer un fichier</td>
+          <td>touch index.html</td>
+        </tr>
+        <tr>
+          <td>mv</td>
+          <td>Pour déplacer un fichier d'un dossier à un autre</td>
+          <td>mv index.html website/CSS</td>
+        </tr>
+      </tbody>
+    </table></div>
+     <h2 id="HTMLA">
+       <a href="#">↑</a>
+       HTML
+       <a href="#CSSA">↓</a>
+     </h2>
+     <h3>Les listes</h3>
+     <p> La balise "ol"permet de créer des listes ordonnée</p>
+     <p>la balise "ul"permet de créer des listes non ordonnée </p>
+     <p>pour créer une liste nous avons besoin d'une balise "ul"ou"ol"
+     ainsi qu"une balise"li"</p>
+     <p>"li" est un item dans une liste</p>
+     <h3>Texte</h3>
+     <p>la balise "em"permet de mettre en italic en html et de donner de l'importance</p>
+     <p>La balise "mark" permet de mettre en gras en html et donner de l'importance </p>
+     <p>Les balises "h1""2""h..""h6"sont les différentes balises de titre
+     du plus important au moins important <br/>
+     Il est impossible de mettre une balise h6 sans la balise qui la
+     précéde (h1/h2/h3...)</p>
+     <p>La balise "p" permet de faire un paragraphe</p>
+     <h3>les balises auto fermante</h3>
+     <p>la balise auto fermante "br/" permet de sauter des lignes dans un paragraphe</p>
+     <p>la balise auto fermante "img/" permet a l'aide d'une source d'introduire une image sur la page "</p>
+     <p>La balise auto fermante "input" permet de définir un champ de formulaire
+       (texte,buton,ect...)</p>
+     <h3>Les tableaux</h3>
+     <p>La balise "thead" permet de créer des cellules d'en tête dans un tableau</p>
+     <p>La balise "tbody" permet de créer des cellules corp dans un tableau</p>
+     <p>La balise "tfoot" permet de créer les cellules pied du tableau</p>
+     <p>La balise "tr" est une ligne d'un tableau de donnés elle comprend la
+     balise "th" ou "td" pour afficher les informations</p>
+     <p>On peut ajouter "colspan="[nombre de cellules]" aux balises "td" et "th"
+     pour fusionner un certain nombre de cellules</p>
+     <p>On utilise la balise "caption" a la suite de la formule table pour donner un titre au tableau</p>
+     <h3>Les formulaires</h3>
+     <p>L balise "fieldset"permet d'encadrer le formulaire ce trouvant a l'intérieure
+     de cette balise</p>
+     <p>L balise "legend" permet de nommer un fieldset</p>
+     <p>La balise "textarea"permet de faire une zone de texte multi ligne</p>
+     <p>L balise "label" permet de féfinir un label a une balise"input"</p>
+     <ul>On peut ajouter a input les atribute type suivant:
+       <li>type="text"</li>
+       <li>type="radio"</li>
+       <li>type="button"</li>
+       <li>type="mail"</li>
+       <li>type="submit"</li>
+     </ul>
+     <h2 id="CSSA">
+       <a href="#HTMLA">↑</a>
+       CSS
+       <a href="#">↓</a>
+     </h2>
+     <p>Pour modifier la hauteur d'un block sur css on utilise: height:[taille];</p>
+    <p>Pour modifier la largeur d'un block sur CSS on utilise: width:[taille];</p>
+    <p>Pour modifierles bordure d'un block on utilise: border:[épaisseur] solid [couleur]</p>
+    <p>Pour changer la police d'un texte on utilise: font-family:[nom de la police];</p>
+    <p>Pour changer la couleur de la police on utilise: color:[couleur];</p>
+    <p>Pour changer la taille de la police on utilise: font-size:[Taille];</p>
+    <p>Pour aligner un texte on utilise: text-align:[center,left,right];</p>
+    <p>Pour changer la couleur du fond on utilise: background-color[couleur];</p>
+    <p>Pour changer la marge global exterieur on utilise: margin:[Taille];</p>
+    <p>Pour changer la marge exterieur on utilise: margin-[top,bottom,left,right]:[Taille];</p>
+    <p>Pour changer la marge global intérieur on utilise: padding[Taille];</p>
+    <p>Pour changer la marge intérieur on utilise: padding-[top,bottom,right,left]:[taille];</p>
+    <p>Pour faire un dégradé a l'aide de css on utilise background-image:linear-gradient(couleur ...);</p>
+    <p>Pour utiliser une image avec css on utilise background-image:url(URL de l'image);</p>
+    <p>Pour arrondir les angles des bordure on utilise border-[top/bottom]-[left/right]-radius: [taille 1] [taille 2];</p>
+    <p>pour spécifié ou un block doit etre placé on utilise : float [left/right/none]</p>
+
+    <style/>
+    <pre><code></code></pre>
+  </body>
+</html>
