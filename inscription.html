@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <form method="post" action="traitement.php">
+    <fieldset>
+      <legend>informations personnel</legend>
+      <ol>
+        <li>
+          <label for="Nom" >Nom : </label>
+          <input type="text" id="Nom" name="Nom" placeholder="Nom" required />
+        </li>
+        <li>
+          <label for="Prénom">Prénom : </label>
+          <input type="text" id="Prénom" name="Prénom" placeholder="Prénom" required />
+        </li>
+        <li>
+          <label for="Pays">Sélectionner un Pays : </label>
+          <select name="Pays" id="Pays">
+            <option value="France">France</option>
+            <option value="Belgique">Belgique</option>
+            <option value="Allemagne">Allemagne</option>
+            <option value="Royaume-Uni">Royaume-Uni</option>
+            <option value="Italie">Italie</option>
+            <option value="Espagne">Espagne</option>
+            <option value="Portugal">Portugal</option>
+            <option value="Malte">Malte</option>
+            <option value="Suisse">Suisse</option>
+            <option value="Luxembourg">Luxembourg</option>
+            <option value="Pologne">Pologne</option>
+            <option value="Pays-Bas">Pays-Bas</option>
+          </select>
+        </li>
+        <li required>
+          <label>Sexe : </label>
+          <ul>
+            <li>
+              <input type="radio" id="Homme" name="Sexe" value="Homme" />
+              <label for="Homme">Homme</label>
+            </li>
+            <li>
+              <input type="radio" name="Sexe" value="Femme" id="Femme" />
+              <label for="Femme">Femme</label>
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </fieldset>
+    <fieldset>
+      <legend>Compte utilisateur</legend>
+      <ol>
+        <li>
+          <label for="Pseudo">Pseudo : </label>
+          <input id="Pseudo" name="Pseudo" placeholder="Pseudo" required />
+        </li>
+      </ol>
+    </fieldset>
+  </form>
+</body>
+</html>
